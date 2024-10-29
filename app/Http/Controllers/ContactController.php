@@ -15,7 +15,7 @@ class ContactController extends Controller
 
     public function view(int $id)
     {
-        $contact = Contacts::find($id);
+        $contact = Contacts::findorfail($id);
         return view('contact', compact('contact'));
     }
 }
