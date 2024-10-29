@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\JobsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -13,6 +14,9 @@ Route::get('/home', function () {
 
 Route::get('/contacts', [ContactController::class, 'index']);
 Route::get('/contacts/{id}', [ContactController::class, 'view']);
+
+Route::get('/jobs', [JobsController::class, 'index']);
+Route::get('/jobs/{id}', [JobsController::class, 'view']);
 
 Route::get('/api', function () {
     return [123, 'test', [123, 555]];
