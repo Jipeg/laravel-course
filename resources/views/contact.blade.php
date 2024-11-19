@@ -7,4 +7,7 @@
     <x-slot:title>
         Contact {{$contact['name']}}
     </x-slot:title>
+    <x-slot:heading>
+        Contact {{$contact['name']}}
+    </x-slot:heading>
 </x-layout>

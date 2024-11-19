@@ -7,4 +7,7 @@
     <x-slot:title>
         Job {{$job['name']}}
     </x-slot:title>
+    <x-slot:heading>
+        Job {{$job['name']}}
+    </x-slot:heading>
 </x-layout>

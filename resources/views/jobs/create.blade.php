@@ -51,4 +51,7 @@
     <x-slot:title>
         Create new job
     </x-slot:title>
+    <x-slot:heading>
+        Create new job
+    </x-slot:heading>
 </x-layout>

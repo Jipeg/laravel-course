@@ -17,4 +17,7 @@
     <x-slot:title>
         All Jobs
     </x-slot:title>
+    <x-slot:heading>
+        All Jobs
+    </x-slot:heading>
 </x-layout>

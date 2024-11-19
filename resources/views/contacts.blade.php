@@ -14,4 +14,7 @@
     <x-slot:title>
         All Contacts
     </x-slot:title>
+    <x-slot:heading>
+        All Contacts
+    </x-slot:heading>
 </x-layout>
